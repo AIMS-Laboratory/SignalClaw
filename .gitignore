@@ -1,0 +1,29 @@
+# Large local database dumps
+traffic_full_20260521_112701.sql
+*.sql
+*.sql.gz
+*.dump
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo
+
+# Local ARIS/Codex install metadata and symlinked skills
+AGENTS.md
+.agents/
+.aris/
+
+# Runtime logs and temporary files
+*.log
+tmp/
+temp/

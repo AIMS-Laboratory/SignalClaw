@@ -12,6 +12,7 @@ __pycache__/
 .ruff_cache/
 .venv/
 venv/
+.env
 
 # OS/editor files
 .DS_Store
@@ -23,7 +24,15 @@ AGENTS.md
 .agents/
 .aris/
 
-# Runtime logs and temporary files
-*.log
+# Runtime outputs and temporary files
+store/
+outputs/
+logs/
 tmp/
 temp/
+*.log
+
+# Generated figure intermediates
+images/src/*.aux
+images/src/*.log
+images/src/*.pdf
